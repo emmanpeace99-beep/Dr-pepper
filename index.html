@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Pepper | What's the Worst That Could Happen?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="navbar">
+        <div class="logo">Dr Pepper</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#flavours">Flavours</a></li>
+                <li><a href="#find-us">Find Us</a></li>
+                <li><a href="#offers">Offers</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>What's the Worst That Could Happen?</h1>
+            <p>Experience the bold, unique blend of 23 flavours. <span class="highlight">Fan Favourite.</span></p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Buy Now</a>
+                <a href="#flavours" class="btn btn-secondary">Explore Flavours</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/400x600/7a0016/ffffff?text=Ice+Cold+Can" alt="Ice cold can of Dr Pepper">
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Shop The Classics</h2>
+        <div class="grid-container">
+            <div class="product-card">
+                <div class="badge">Best Seller</div>
+                <img src="https://via.placeholder.com/200x400/111111/ffffff?text=Original" alt="Dr Pepper Original Can">
+                <h3>Original</h3>
+                <p>The iconic 23 flavours.</p>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200x400/111111/ffffff?text=Zero+Sugar" alt="Dr Pepper Zero Sugar Can">
+                <h3>Zero Sugar</h3>
+                <p>All the flavour, zero sugar.</p>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="badge urgency">Limited Edition</div>
+                <img src="https://via.placeholder.com/200x400/111111/ffffff?text=Cherry" alt="Dr Pepper Cherry Can">
+                <h3>Cherry Twist</h3>
+                <p>A bold cherry kick.</p>
+                <button class="btn btn-primary">Grab It Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="flavours" class="promo-video">
+        <div class="video-container">
+            <h2>Taste The Action</h2>
+            <div class="video-placeholder">
+                <p>▶ Play Latest Campaign</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="find-us" class="store-locator">
+        <h2>Find Near Me</h2>
+        <p>Craving a cold one? Enter your postcode to find the nearest stockist.</p>
+        <form id="locator-form">
+            <input type="text" id="postcode" placeholder="Enter Postcode / ZIP" required aria-label="Enter Postcode">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <div id="locator-results" class="hidden"></div>
+    </section>
+
+    <section id="offers" class="newsletter">
+        <div class="newsletter-content">
+            <h2>Get Exclusive Flavours & Offers</h2>
+            <p>Sign up to our mailing list and be the first to know about limited drops.</p>
+            <form id="email-form">
+                <input type="email" id="email" placeholder="Enter your email address" required aria-label="Email Address">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            <p class="success-msg hidden">Thanks for subscribing! Check your inbox.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2026 Dr Pepper. All rights reserved. (Demo Site)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
